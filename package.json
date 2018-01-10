@@ -1,5 +1,5 @@
 {
-  "name": "@cloudrecipes/lambda-greeter",
+  "name": "@cloudrecipes/aws-lambda-greeter",
   "version": "0.1.0",
   "description": "Lambda Greeter",
   "main": "index.js",
@@ -9,8 +9,7 @@
     "coverage:report": "nyc report --reporter=html",
     "watch:test": "cross-env NODE_ENV=test ava --watch"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Anton Klimenko <antklim@gmail.com>",
   "license": "MIT",
   "engines": {
@@ -69,5 +68,18 @@
       "lcovonly",
       "text"
     ]
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudrecipes/aws-lambda-greeter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cloudrecipes/aws-lambda-greeter/issues"
+  },
+  "homepage": "https://github.com/cloudrecipes/aws-lambda-greeter#readme"
 }
